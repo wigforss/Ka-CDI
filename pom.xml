@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.kasource</groupId>
 	<artifactId>ka-cdi</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<packaging>jar</packaging>
 	<name>Ka CDI</name>
 	<url>http://kasource.org</url>
