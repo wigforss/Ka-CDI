@@ -1,4 +1,4 @@
-package org.kasource.commons.cdi.bean;
+package org.kasource.cdi.bean;
 
 import java.lang.annotation.Annotation;
 import java.util.HashSet;
@@ -10,9 +10,9 @@ import javax.enterprise.inject.spi.Bean;
 import javax.enterprise.inject.spi.BeanManager;
 import javax.inject.Inject;
 
-import org.kasource.commons.bean.BeanNotFoundException;
-import org.kasource.commons.bean.BeanResolver;
-import org.kasource.commons.cdi.util.AnnotationUtil;
+import org.kasource.cdi.util.AnnotationUtil;
+import org.kasource.di.bean.BeanNotFoundException;
+import org.kasource.di.bean.BeanResolver;
 
 
 

@@ -1,4 +1,4 @@
-package org.kasource.commons.cdi.extension.beanlisten;
+package org.kasource.cdi.extension.beanlisten;
 
 import java.util.EventListener;
 

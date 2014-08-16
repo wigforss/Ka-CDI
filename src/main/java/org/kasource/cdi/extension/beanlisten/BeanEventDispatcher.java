@@ -1,4 +1,4 @@
-package org.kasource.commons.cdi.extension.beanlisten;
+package org.kasource.cdi.extension.beanlisten;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -9,8 +9,8 @@ import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
-import org.kasource.commons.cdi.extension.KaCommonsExtension;
-import org.kasource.commons.cdi.extension.eager.Eager;
+import org.kasource.cdi.extension.KaCommonsExtension;
+import org.kasource.cdi.extension.eager.Eager;
 
 @ApplicationScoped @Eager
 public class BeanEventDispatcher implements BeanEventListener {

@@ -1,4 +1,4 @@
-package org.kasource.commons.cdi.extension;
+package org.kasource.cdi.extension;
 
 import java.lang.reflect.Type;
 import java.util.LinkedList;
@@ -13,9 +13,9 @@ import javax.enterprise.inject.spi.Extension;
 import javax.enterprise.inject.spi.ProcessBean;
 import javax.enterprise.inject.spi.ProcessInjectionTarget;
 
-import org.kasource.commons.cdi.extension.beanlisten.BeanEvent;
-import org.kasource.commons.cdi.extension.beanlisten.BeanEventListener;
-import org.kasource.commons.cdi.extension.eager.Eager;
+import org.kasource.cdi.extension.beanlisten.BeanEvent;
+import org.kasource.cdi.extension.beanlisten.BeanEventListener;
+import org.kasource.cdi.extension.eager.Eager;
 
 public class KaCommonsExtension implements Extension, BeanEventListener, Runnable {
     private Queue<EagerBean> eagerBeans = new LinkedList<EagerBean>();

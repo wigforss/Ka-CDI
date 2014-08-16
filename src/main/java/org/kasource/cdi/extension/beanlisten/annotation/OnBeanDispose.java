@@ -1,4 +1,4 @@
-package org.kasource.commons.cdi.extension.beanlisten.annotation;
+package org.kasource.cdi.extension.beanlisten.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -18,6 +18,6 @@ import java.lang.annotation.Target;
 @Documented
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface OnBeanInjection {
+public @interface OnBeanDispose {
 
 }

@@ -1,11 +1,11 @@
-package org.kasource.commons.cdi.extension.beanlisten;
+package org.kasource.cdi.extension.beanlisten;
 
 import java.lang.reflect.Method;
 
-import org.kasource.commons.cdi.extension.beanlisten.annotation.OnBeanDispose;
-import org.kasource.commons.cdi.extension.beanlisten.annotation.OnBeanInjection;
-import org.kasource.commons.cdi.extension.beanlisten.annotation.OnBeanPostConstruct;
-import org.kasource.commons.cdi.extension.beanlisten.annotation.OnBeanPreDestroy;
+import org.kasource.cdi.extension.beanlisten.annotation.OnBeanDispose;
+import org.kasource.cdi.extension.beanlisten.annotation.OnBeanInjection;
+import org.kasource.cdi.extension.beanlisten.annotation.OnBeanPostConstruct;
+import org.kasource.cdi.extension.beanlisten.annotation.OnBeanPreDestroy;
 import org.kasource.commons.reflection.ClassIntrospector;
 import org.kasource.commons.reflection.ClassIntrospectorImpl;
 import org.kasource.commons.reflection.filter.MethodFilterBuilder;

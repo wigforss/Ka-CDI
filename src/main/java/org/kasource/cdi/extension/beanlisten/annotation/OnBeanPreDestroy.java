@@ -1,4 +1,4 @@
-package org.kasource.commons.cdi.extension.beanlisten.annotation;
+package org.kasource.cdi.extension.beanlisten.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Annotate a method with this annotation to get notified when a bean is created.
+ * Annotate a method with this annotation to get notified when a bean is destroyed.
  * 
  * The method should be public and taking Object as its only parameter.
  * 
@@ -18,6 +18,6 @@ import java.lang.annotation.Target;
 @Documented
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface OnBeanPostConstruct {
+public @interface OnBeanPreDestroy {
 
 }

@@ -1,4 +1,4 @@
-package org.kasource.commons.cdi.extension.eager;
+package org.kasource.cdi.extension.eager;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

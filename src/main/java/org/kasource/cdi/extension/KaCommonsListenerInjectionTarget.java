@@ -1,4 +1,4 @@
-package org.kasource.commons.cdi.extension;
+package org.kasource.cdi.extension;
 
 import java.util.Set;
 
@@ -6,9 +6,9 @@ import javax.enterprise.context.spi.CreationalContext;
 import javax.enterprise.inject.spi.InjectionPoint;
 import javax.enterprise.inject.spi.InjectionTarget;
 
-import org.kasource.commons.cdi.extension.beanlisten.BeanEvent;
-import org.kasource.commons.cdi.extension.beanlisten.BeanEventListener;
-import org.kasource.commons.cdi.extension.beanlisten.BeanEventType;
+import org.kasource.cdi.extension.beanlisten.BeanEvent;
+import org.kasource.cdi.extension.beanlisten.BeanEventListener;
+import org.kasource.cdi.extension.beanlisten.BeanEventType;
 
 /**
  * InjectionTarget decorator that calls the registered BeanInjectionListeners.
